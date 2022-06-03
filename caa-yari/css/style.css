@@ -1,0 +1,691 @@
+/* todos los html */
+*{
+	margin:0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* width: 620px; */
+    margin: 0 auto;
+}
+
+.fotoMate{
+    background-image: url("../images/mate.png");
+    /* background-color: #cccccc; */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.marcaPagina{
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    /* left: 65%; */
+    left: 40%;
+    transform: translate(-5%, -20%);
+    font-size: 64px;
+    /* color: black; */
+    color: white;
+}
+
+.marcaPagina a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+
+.barraNav{
+    background-color: lightgreen;
+}
+
+/* .logo{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 40%;
+} */
+
+/* .menu{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 30%;
+    background-color: lightgreen;
+
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu li>a{
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+
+.menu li>a:hover{
+    color: black;
+    background-color: #eaeaea;
+    background-color: lightgreen;
+}
+
+.menu>li{
+    float: left;
+    text-align:center;
+}
+
+
+.menu>li>ul{
+    display: none;
+}
+ 
+
+.menu>li:hover>ul {
+    background-color:rgb(10, 127, 10);
+    display:block;
+} */
+
+.nav-enlace{
+    display: inline-block;
+    background: rgb(46, 204, 113);   
+    color: white;
+    padding: 10px 20px;  /*10px top y bottom y 30px izq y der */
+    text-decoration: none;
+    text-decoration-style: none ;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+
+.nav-enlace:hover{
+    background: gray ;
+}
+
+nav{
+    background: rgb(46, 204, 113);   
+    text-align: center;   
+}
+
+
+/* footer{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+} */
+
+.copy{
+    text-align: center;
+    /* color: #eaeaea; */
+    font-weight: 500;
+    color: #fff ;
+}
+
+footer .derecho-autor{
+    background-color: rgb(46, 204, 113) ;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* index */
+.principal{
+    background-color: white;
+}
+
+.titleFirst{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.container-fluid{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.history{
+    font-family: 'Kanit', sans-serif;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    margin: 25px 20px;
+    /* margin-left: 9em;
+    margin-right: 4em; */
+    /* margin-top: 2em; */
+    float: left;
+    /* text-align: justify; */
+    text-indent: 50px; /*sangria */
+}
+
+.fotoPlanta{
+    padding: 20px;
+    /* width: 400px;
+    height: 400px; */
+    width: 30%;
+    height: 30%;
+}
+/* fin index */
+
+/* page acerca */
+.tituloMate{
+    margin-top: 2em;
+    margin-left: 40%;
+    margin-bottom: 2em;
+    color: green;
+}
+
+.fotoMateYerba{
+    float: left;
+    /* width: 380px; */
+    width: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.historiaMate{
+    margin-right: 20%;
+    margin-top: 3.5em;
+    font-family: 'Kanit', sans-serif;
+    text-indent: 20px; /*sangria */
+}
+
+.tituloHistoria, .tituloProduccion{
+    margin-top: 2em;
+    margin-left: 35%;
+    margin-bottom: 2em;
+    color: green;
+}
+
+.fotoYerba{
+    float: right;
+    width: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4em;
+}
+
+.historiaYerba{
+    margin-left: 15%;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 4em;
+    text-indent: 20px; /*sangria */
+}
+
+/* pagina produccion */
+.parteProd{
+    margin-bottom: 6em;
+}
+
+.produccion{
+    float: left;
+    width: 550px;
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 2em;
+}
+
+.historiaProduccion{
+    margin-right: 10%;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* page contacto */
+
+
+.campoNombre{
+    padding-bottom: 1em;
+    margin-left: 3em;
+} 
+
+.campoApellido, .campoEmail{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 3em;
+}
+
+.campoEmail{
+    margin-right: 4em;
+}
+
+.campoConsulta{
+    margin-left: 6em;
+}
+
+.cons{
+    position: absolute;
+    left: 580px;
+    top: 895px;
+} 
+
+.area{
+    width: 178px;
+}
+
+
+.cuadro{
+    height: 70px;
+}
+
+.btnEnviar{
+    margin-top: 1em;
+    width: 50px;
+    margin-left: 6em;
+    margin-bottom: 2em;
+}
+
+/* page comprar */
+.precio{
+    margin-top: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: green;
+}
+
+.bolsaCuarto, .bolsaMedio{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 10%;
+    /* margin-top: 4em; */  
+}
+
+/* .bolsaKilo{
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin-left: 15%; 
+    margin-right: 10%;
+    margin-top: 1em;
+} */
+
+.bolsaKilo{
+    width: 200px;
+    height: 250px;
+}
+
+.bolsaCincoKilos{
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 10%;
+    /* margin-top: 5em; */
+}
+
+.cartel1{
+    margin-top: 6em;
+    margin-left: 3em;
+}
+
+.cartel2{
+    float: right;
+    /* margin-right: 40%; */
+    margin-right: 42%;
+}
+
+.kilo{
+    margin-top: 8em;
+    margin-left: 15%;
+}
+
+
+.cartel3{
+    margin-top: 6em;
+    margin-left: 3em;
+     /* margin-bottom: 3em; */
+     /* margin-right: 50%; */
+}
+
+.cartel4{
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+
+.descripcion{
+    margin-bottom: 1em;
+    /* margin-left: 2em; */
+}
+
+.descripcion1{
+    /* margin-top:10%; */
+    margin-bottom: 1em;
+}
+
+
+
+.peso{
+    /* margin-left: 2em; */
+    margin-top: 1em;
+}
+
+.precioCuarto{
+    /* display: inline; */
+    /* margin-left: 1em; */
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.producto4{
+    margin-bottom: 20%;
+}
+
+
+/* pagina contactenos */
+
+.tituloForm{
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.formularioContacto{
+    text-align: center;
+    margin: 5%;
+    /* align-items: center; */
+    /* margin-top: 2em;
+    margin-bottom: 3em; */
+    border: 3px solid lightgrey;
+    border-width: thin;
+    padding: 10px;
+    border-radius: 105px;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+
+.columna{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* .posicionForm{
+    margin-left: 58.33%;
+} */
+
+#contactenos{
+    position: relative;
+}
+
+#contactenos form{
+    padding: 60px;
+}
+
+#contactenos form .form-block{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#contactenos form .form-block .form-control{
+    display: block;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid green;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#contactenos form .form-block textarea{
+    display: block;
+    height: 100px;
+    font-size: 16px;
+    border: 1px solid green;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#contactenos form .form-block.ultimo-bloque{
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+form .boton.boton-negro{
+    width: 30%;
+}
+
+
+
+@media (max-width: 769px){
+
+    .container{
+        width: 100%;
+    }
+
+    body{
+        font-size: 15px;
+    }
+
+    header .container .fotoMate{
+        width: 100%;
+    }
+
+    header .container .fotoMate .marcaPagina{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-5%, -20%);
+    font-size: 35px;
+    color: white;
+    }
+
+    footer .derecho-autor{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+
+    }
+
+    .titleFirst{
+        text-align: center;
+        /* margin-top: 2em; */
+        margin: 15px 20px;
+    }
+
+    .history{
+        font-family: 'Kanit', sans-serif;
+        width: 80%;
+        height: 80%;
+        align-items: center;
+        margin: 25px 20px;
+        float: left;
+        text-indent: 50px; /*sangria */
+    }
+
+    .fotoPlanta{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .tituloMate{
+        margin:15px 10px;
+        text-align: center;
+        color: green;
+    }
+
+
+    .seccion{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .fotoMateYerba{
+        float: left;
+        width: 80%;
+       height: 80%;
+       margin-bottom: 20px;
+    }
+    
+    .historiaMate{
+        /* margin-right: 20%; */
+        /* margin-top: 3.5em; */
+        margin: 20px;
+        font-family: 'Kanit', sans-serif;
+        text-indent: 20px; /*sangria */
+    }
+
+    .fotoYerba{
+        float: right;
+        width: 80%;
+        height: 80%;
+        /* margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 4em; */
+    }
+    
+    .historiaYerba{
+        /* margin-left: 15%; */
+        margin: 15px;
+        font-family: 'Kanit', sans-serif;
+        /* margin-bottom: 4em; */
+        text-indent: 20px; /*sangria */
+    }
+
+    .tituloHistoria , .tituloProduccion{
+        margin: 15px;
+        text-align: center;
+        color: green;
+    }
+
+    .parteProd{
+        margin-bottom: 20px;
+    }
+    
+    .produccion{
+        float: left;
+        width:80%;
+        height: 100%;
+        /* margin-left: 10%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        margin-top: 2em; */
+        margin-bottom: 10%;
+    }
+    
+    .historiaProduccion{
+        /* margin-right: 10%; */
+        margin: 15px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .tituloForm{
+        text-align: center;
+        margin-top: 5%;
+        text-decoration: underline;
+        font-size: 20px;
+        margin-bottom: 2em;
+    }
+
+    .formularioContacto{
+        /* text-align: center; */
+        /* margin: 15px; */
+        /* align-items: center; */
+        /* margin-top: 2em;
+        margin-bottom: 3em; */
+        /* border: 3px solid lightgrey; */
+        /* border-width: thin; */
+        padding: 5px;
+        /* border-radius: 105px; */
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    form .boton.boton-negro{
+        width: 100%;
+    }
+
+    
+    .columna-mobile-100{
+        width: 100%;
+    }
+
+    .posicionForm0{
+        margin-left: 0;
+    }
+
+    .precio{
+        margin: 15px;
+        text-align: center;
+        color: green;
+    }
+
+    .bolsaCuarto, .bolsaMedio{
+        float: left;
+        width: 80%;
+        height: 80%;
+        margin: 10%;
+        /* margin-top: 4em; */  
+    }
+
+    .cartel1, .cartel2{
+    text-align: center;    
+    margin: 10px;
+    }
+ 
+
+    .descripcion{
+        margin: 0;
+    }
+
+    .bolsaKilo{
+        width: 80%;
+        height: 80%;
+        margin: 10%;    
+    }
+
+    .kilo{
+        margin: 10px;
+    }
+    
+    .bolsaCincoKilos{
+        float: left;
+        /* width: 90%;
+        height: 90%;     */
+        width: 80%;
+        height: 80%;
+        /* margin-left: 15px; */
+        margin-left: 10%;
+    }
+
+    .producto4{
+       margin: 0;
+    }
+
+    .cartel4{
+        text-align: center;
+        margin: 20px;
+    }
+    
+    
+}
+
+
+
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 1199px){
+
+}
