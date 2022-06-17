@@ -1,0 +1,454 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+	padding: 0;
+}
+
+/* ul li{
+    color: white;
+    display: inline-block;
+    padding-left: 10px; 
+	letter-spacing: 1px; 
+	text-decoration: none;
+	list-style-type: none;
+    text-align: end;
+} */
+
+header{
+    background-color: black;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    display: inline-block;
+}
+
+header .container nav a{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 10px;
+    color: white;
+    display: inline-block;
+    letter-spacing: 1px; 
+}
+
+/* header nav{
+    background-color: black;
+} */
+
+
+.container{
+    /* width: 1140px; */
+    /* margin: 0 auto; */
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    /* margin-right: 5%; */
+}
+
+/* header .container nav a ul{
+    display: inline-block;
+} */
+
+#index{
+    /* width: 1440px; */
+    width: 1440px;
+    height: 774px;
+    left: 0px;
+    top: 0px;
+    /* background-color: rgb(#EEAFC7 200deg, #FF9E80 160deg ); */
+}
+
+/* #index{
+    background-image: url(./images/fondo_rosa.png);
+    background-color: #FF9E80;
+} */
+
+
+.historia_marca{
+    background-image: url(/images/fondo_naranja.png);
+    margin-top: 95px;
+    width: 30%;
+    height: 100%;
+}
+
+.cuadro_naranja{
+    display: inline-block;
+    background-image: url(/images/fondo_rosa.png);
+    width: 70%;
+    height: 100%;
+}
+
+.cuadro_blanco{
+    /* background-image: url(/images/recuadro_blanco.png); */
+    border: 1px solid white;
+    /* margin: 50px 50px;
+    padding: 25px 50px; */
+    background-color: white;
+    opacity: 0.6;
+    width: 500px;
+    height: 450px;
+    /* height: 553px;
+    width: 494px; */
+    left: 100px;
+    top: 141px;
+    border-radius: 0px;   
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.contenido-principal h1{
+    font-size: 62px;
+    color: #EA4C89;
+    padding: 15px 40px 15px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+}
+
+.contenido-principal h4{
+    font-size: 32px;
+    /* padding: 15px 10px; */
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contenido-principal p{
+    font-weight: 300;
+    color: grey;
+    text-align: left;
+    line-height: 150%;
+    padding-right: 60px;
+    margin-right: 60px;
+}
+
+.contenido-principal button{
+    padding: 15px;
+    margin: 15px 0px;
+    background-color: #EA4C89 ;
+    border: none;
+    color: white;
+}
+/* 
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+} */
+
+/* .normal {
+    mix-blend-mode: normal;
+} */
+/* 
+.d-block{
+    position: absolute;
+    width: 934px;
+    height: 553px;
+    margin-left: 5%;
+    margin-top: 5%;
+} */
+
+/* slider con css  */
+/* .container-slider{
+    margin: auto;
+    width: 700px;
+    padding: 30px;
+}
+
+.container-slider img{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+ul, li{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+    width: 900px;
+    height: 470px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit ;
+    height: inherit;
+}
+
+
+ul.slider li img{
+    width: 900px;
+    height: 470px;
+    object-fit: cover;
+} */
+
+
+/* .menu li a .circulo{
+    display: inline-block;
+    content: "\f111";
+    font-family: "Font Awesome 6 Free";
+} */
+
+/*.menu{
+    text-align:center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    content: ".";
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #EA4C89;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+/* .mySlides {
+    display: none;
+} */
+/* 
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+ul.slider.li:target{
+    opacity: 1;
+} */
+
+.container-fluid{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.titulo-tostado{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.titulo-casa{
+    font-weight: bold;
+}
+
+.foto_tostados{
+    width: 285px;
+    height: 350px;
+}
+
+
+.cuadro-clasico{
+    border: 1px;
+    background-color: lightgray;
+}
+
+.columna{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.columna-1{
+    width: 33.33%;
+}
+
+.imagen-adaptable{
+    width: 100%;
+    padding-bottom: 80%;
+    position: relative;
+}
+
+.imagen-adaptable img{
+    /* width: 100%;
+    height: 100% ; */
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+.img-galery{
+    margin-bottom: 10px;
+}
+
+#meriendas{
+    position: relative;
+    width: 1440px;
+    height: 754px;
+    Top:10px;
+    
+    border: 1px ;
+    border-radius: 5px; 
+
+    background: rgba(234, 76, 137, 0.1);
+}
+
+.contenido-merienda{
+    margin: 25px 30px;
+    width: 304px;
+    height: 124px;
+}
+
+.container-merienda h1{
+    /* padding-right: 20px; */
+    font-size: 40px;
+    line-height: 48px;
+    margin-right: 60px;
+}
+
+.titulo-meriendas{
+    width: 200px;
+    height: 128px;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-right: 50px;
+    font-family: "Roboto";
+}
+
+.contenido-merienda p {
+    height: 500px;
+    font-size: 16px;
+    Line-height: 24px;
+    width: 250px;
+    color: #616161;
+    font-family: "Source Sans Pro";
+}
+
+.foto-merienda{
+    width: 40%;
+    height: 50%;
+    margin-left: 100%;
+    padding-left: 100%;
+}
+
+.titulo-meriendas, .descripcion-merienda{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+
+/* .container .row h6, h1, p{
+    text-align: center;
+    margin-top: 20px;
+} */
+
+#quienes{
+    position: relative;
+    width: 1440px;
+    height: 754px;
+}
+
+
+.contenido-quienes{
+position: absolute;
+width:835px;
+height: 332px;
+left: 252px;
+/* top: 3204px; */
+
+/* font-family: 'SF Pro Display'; */
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+}
+
+
+.titulo-cursiva{
+    font-style:italic;
+    text-align: center;
+    margin-top: 4em;
+    display: block;
+}
+
+.titulo-quienes{
+    display: block;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.fotos-local{
+    margin-top: 44%;
+    display: inline-block;
+}
+
+.fotos-local .foto2{
+    display: inline-block;
+}
+
+.foto-local .foto3{
+    padding-bottom: 11%;
+}
+
+.fotos_quienes1{
+    width:368px;
+    height: 466px;
+    Top:3575px;
+}
+
+.fotos_quienes2{
+    width: 368px;
+    height: 310px;
+    Top: 3575px;
+    Left: 535px;
+}
+
+.fotos_quienes4{
+    width:368px;
+    height:153px;
+    
+}
+
+.galeria-quienes{
+    position: absolute;
+    width: 1235px;
+    height: 689px;
+    left: 102px;
+    /* top: 3575px; */
+    top: 600px;
+}
+
+footer{
+    background-color: black;
+}
